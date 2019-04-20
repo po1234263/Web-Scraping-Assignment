@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<!--
+ _________   _______       ___     ___    ___      _____      _                  _      _ _
+|         | |        \    |   |   |   |  |   |    / ____|    | |                | |    | (_)
+|__     __| |    _    \   |   |   '   |  '   '   | |    _   _| |__   ___ _ __ __| | ___| |_  __ _
+   |   |    |   |  \   \  |   '_ /    '_/   /    | |   | | | | '_ \ / _ \ '__/ _` |/ _ \ | |/ _` |
+   |   |    |   |   |   | |         /      /     | |___| |_| | |_) |  __/ | | (_| |  __/ | | (_| |
+   '___'    '___'   '___' '_______ / '____/       \_____\__, |_.__/ \___|_|  \__,_|\___|_|_|\__,_|
+                                                         __/ |
+                                                        |___/
+Design by:
+——————————
+
+    ALEXANDER GRIFFIOEN
+   ✉alexander🐺thenextweb.com
+   ✎@oscaralexander
+   ✈Amsterdam, NL
+
+Implementation by:
+——————————————————
+
+    LAURA GONZÁLEZ          |   PABLO ROMÁN             |   JAVIER NEGRE
+   ✉laura🐧thenextweb.com    |  ✉pablo🐵thenextweb.com   |  ✉javi🐻thenextweb.com
+   ✎@freezydorito           |  ✎@pabloroman             |  ✎@javi_negre
+   ✈Oviedo, ES              |  ✈Amsterdam, NL           |  ✈Barcelona, ES
+
+    GORDAN KONDEV           |   JULIO FOULQUIÉ
+   ✉gordan🦁thenextweb.com  |  ✉julio🐼thenextweb.com
+   ✈Amsterdam, NL           |  ✎@julioelpoeta
+                            |  ✈Montevideo, UY
+
+🍺 Aren't you thirsty? Why don't you cyberdelia.knock() on the door? 🍻
+
+-->
+<html lang="en-us" prefix="og:http://ogp.me/ns# fb:http://ogp.me/ns/fb#" itemscope itemtype="https://schema.org/WebPage">
+<head>
+
+<meta charset="UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="referrer" content="unsafe-url">
+<meta name="apple-mobile-web-app-title" content="The Next Web">
+<meta name="msvalidate.01" content="EBA9DC0DD4E376AF9708F73323680AB1" />
+<!-- Awin verification 001 -->
+<title>Artificial Intelligence | The Next Web</title>
+
+<link rel="manifest" href="/manifest.json">
+
+<link rel="stylesheet" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/css/style.css?v=1554906470" type="text/css"/>
+
+<link rel="dns-prefetch" href="//cdn0.tnwcdn.com/">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="preconnect" href="//cdn0.tnwcdn.com/">
+<link rel="preconnect" href="//www.googletagmanager.com">
+<link rel="apple-touch-icon" sizes="57x57" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-57x57.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-60x60.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-72x72.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-76x76.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-114x114.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-120x120.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-144x144.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-152x152.png?v=1554906426">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/apple-touch-icon-180x180.png?v=1554906426">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-32x32.png?v=1554906426" sizes="32x32">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-194x194.png?v=1554906426" sizes="194x194">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-96x96.png?v=1554906426" sizes="96x96">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/android-chrome-192x192.png?v=1554906426" sizes="192x192">
+<link rel="icon" type="image/png" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-16x16.png?v=1554906426" sizes="16x16">
+<link rel="shortcut icon" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon.png?v=1554906426">
+<link rel="alternate" type="application/rss+xml" title="The Next Web RSS Feed" href="http://feeds2.feedburner.com/thenextweb">
+<!--  WP_HEAD   -->
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://thenextweb.com/artificial-intelligence/" />
+<link rel="next" href="https://thenextweb.com/artificial-intelligence/page/2/" /><link rel="publisher" href="https://plus.google.com/+thenextweb"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Artificial Intelligence | The Next Web" />
+<meta property="og:url" content="https://thenextweb.com/artificial-intelligence/" />
+<meta property="og:site_name" content="The Next Web" />
+<meta property="og:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<meta property="og:image:secure_url" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Artificial Intelligence | The Next Web" />
+<meta name="twitter:site" content="@thenextweb" />
+<meta name="twitter:image" content="https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&#038;fit=1280%2C640&#038;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&#038;signature=d329383c5a6c1c44736a487e9c46ee12" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/thenextweb.com\/","sameAs":["https:\/\/www.facebook.com\/thenextweb","https:\/\/instagram.com\/thenextweb\/","https:\/\/www.linkedin.com\/company\/the-next-web","https:\/\/plus.google.com\/+thenextweb","https:\/\/www.youtube.com\/user\/thenextweb","https:\/\/www.pinterest.com\/thenextweb\/","https:\/\/twitter.com\/thenextweb"],"@id":"https:\/\/thenextweb.com\/#organization","name":"TNW","logo":"https:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/06\/tnw-logo-amp.png"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Next Web &raquo; Artificial Intelligence Category Feed" href="https://thenextweb.com/artificial-intelligence/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift-tnw/public/js/wordlift-tnw-public.js?ver=1.5.0-dev'></script>
+<link rel='https://api.w.org/' href='https://thenextweb.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@id":"#Breadcrumb","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/thenextweb.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"name":"artificial-intelligence","@id":"https:\/\/thenextweb.com\/artificial-intelligence"}}]}</script>
+        <!-- JSON-LD cached: yes-->
+        <script type="application/ld+json">[]</script>
+		
+<link rel="amphtml" href="/amp/" />
+<script>
+  (function (s,o,n,a,r,i,z,e) {s['StackSonarObject']=r;s[r]=s[r]||function(){
+  (s[r].q=s[r].q||[]).push(arguments)},s[r].l=1*new Date();i=o.createElement(n),
+  z=o.getElementsByTagName(n)[0];i.async=1;i.src=a;z.parentNode.insertBefore(i,z)
+  })(window,document,'script','https://www.stack-sonar.com/ping.js','stackSonar');
+
+  stackSonar('stack-connect-wp', "xbcLoqGe2L037SCrJ_Im4A");
+</script>
+<!--  WP_HEAD   -->
+
+<meta property="twitter:account_id" content="10876852">
+<meta property="fb:app_id" content="378011798897423">
+<link href="https://plus.google.com/115081025762845243709/" rel="publisher">
+<meta property="fb:pages" content="106976563522"><!-- TNW -->
+<meta property="fb:pages" content="136548879865026"><!-- TNW Conference -->
+<meta property="fb:pages" content="252857631761065"><!-- TNW NYC -->
+<meta property="fb:pages" content="665773266831844"><!-- Deals -->
+<meta name="yandex-verification" content="66df89eec58f9170">
+
+<!-- Cookie consent -->
+<script>
+    function hideCookieConsent() {
+        document.getElementsByTagName('html')[0].className = document.getElementsByTagName('html')[0].className.replace(/(?:^|\s)no-cookies(?!\S)/g, '');
+    }
+
+    function showCookieConsent() {
+        document.getElementsByTagName('html')[0].className = document.getElementsByTagName('html')[0].className += " no-cookies";
+    }
+
+    function setCookieConsentCookie() {
+        var exdays = 365;
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        var c_value = escape("1") + ((exdays == null) ? "" : "; path=/; expires=" + exdate.toUTCString());
+        document.cookie = "tnw_cookie_consent" + "=" + c_value;
+    }
+
+    function cookiesAccepted() {
+        setCookieConsentCookie();
+        hideCookieConsent();
+    }
+
+    (function() {
+        var cookie = "tnw_cookie_consent";
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + cookie + "=");
+        if (parts.length == 1) {
+            showCookieConsent();
+        }
+    })();
+</script>
+<script type="text/javascript">
+var Phoenix = window.Phoenix || {};
+Phoenix.EQ = window.Phoenix.EQ || [];
+
+(function() {
+    var purl = window.location.href;
+    var url = '//ads.pubmatic.com/AdServer/js/pwt/156315/938';
+    var profileVersionId = '';
+    if(purl.indexOf('pwtv=')>0){
+                    var regexp = /pwtv=(.*?)(&|$)/g;
+                    var matches = regexp.exec(purl);
+                    if(matches.length >= 2 && matches[1].length > 0){
+                        profileVersionId = '/'+matches[1];
+                    }
+    }
+    var wtads = document.createElement('script');
+    wtads.async = true;
+    wtads.type = 'text/javascript';
+    wtads.src = url+profileVersionId+'/pwt.js';
+    var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(wtads, node);
+})();
+
+</script>
+
+<script type="text/javascript">
+Phoenix.EQ.push(
+    function(){
+        <!-- enableSingleRequestCallMode enables to make single request -->
+        Phoenix.enableSingleRequestCallMode();
+        Phoenix.setInfo('ACCID', '156315');
+        Phoenix.setInfo('SEC', '1');
+
+                Phoenix.setCommonTargeting('sponsorName', ['']);
+        Phoenix.setCommonTargeting('isSponsoredCategory', ['No']);
+    }
+);
+</script>
+
+<script type="text/javascript">
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	window.dataLayer = window.dataLayer || [];
+</script>
+
+ <script type="text/javascript">
+
+    var IS_MOBILE = false;
+
+    var APP_LOCALE = {
+        country: "TW",
+        region: "AS",
+        city: ""
+    };
+
+    dataLayer.push({
+        'location': [
+            APP_LOCALE
+        ]
+    });
+</script> 
+<!-- DataLayer -->
+    <script type="text/javascript">dataLayer.push({"version":"4 \/ 4.9.8","page":[{"template":"category","ads":[{"siteskin":0,"sponsored":0}]}],"user":[{"shares":[{"fb":0,"tw":0,"li":0,"go":0,"re":0}]}]});</script>
+
+<!-- Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-MHDDSC');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<noscript>
+	<iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MHDDSC" style="display: none; visibility: hidden;" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager -->
+<script>
+/* Modernizr 2.8.3 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-touch-cssclasses-teststyles-prefixes
+ */
+;window.Modernizr=function(a,b,c){function w(a){j.cssText=a}function x(a,b){return w(m.join(a+";")+(b||""))}function y(a,b){return typeof a===b}function z(a,b){return!!~(""+a).indexOf(b)}function A(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:y(f,"function")?f.bind(d||b):f}return!1}var d="2.8.3",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n={},o={},p={},q=[],r=q.slice,s,t=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},u={}.hasOwnProperty,v;!y(u,"undefined")&&!y(u.call,"undefined")?v=function(a,b){return u.call(a,b)}:v=function(a,b){return b in a&&y(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=r.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(r.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(r.call(arguments)))};return e}),n.touch=function(){var c;return"ontouchstart"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:t(["@media (",m.join("touch-enabled),("),h,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(a){c=a.offsetTop===9}),c};for(var B in n)v(n,B)&&(s=B.toLowerCase(),e[s]=n[B](),q.push((e[s]?"":"no-")+s));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)v(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},w(""),i=k=null,e._version=d,e._prefixes=m,e.testStyles=t,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+q.join(" "):""),e}(this,this.document);
+</script>
+</head>
+
+    <body class="is-channel with-nav-message">
+        
+<nav class="nav">
+    <div class="nav-logo">
+        <a href="/" title="The Next Web"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">
+            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+        </a>
+        <ul class="nav-logo-popout">
+            <li><a class="is-active" href="/"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+            <li><a href="/conference/" ref="" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events</a>
+            </li>
+            <li><a href="https://index.co/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li>
+            <li><a href="https://tq.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li>
+            <li><a href="https://deals.thenextweb.com/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=navbar" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li>
+            <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li>
+            <li><a href="/x/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TNW X" data-event-non-interaction="true">TNW X</a></li>
+        </ul>
+    </div>
+    <ul class="nav-tnw" role="navigation">
+        <li><a class="is-active" href="/"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li>
+        <li><a href="/conference/"  target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Events ▾</a>
+            <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="/conference/">TNW Conference 2019</a>
+                </li>
+                <li>
+                    <a href="/hardfork-decentralized/">Hard Fork Decentralized 2018</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://index.co/"  target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Business" data-event-non-interaction="true">Business ▾</a>
+            <ul class="nav-tnw-dropdown-menu">
+                <li>
+                    <a href="https://index.co/">Index</a>
+                </li>
+                <li>
+                    <a href="/x/">TNW X</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">AMAs</a></li>
+        <li><a href="https://tq.co/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">Spaces</a></li>
+        <li><a href="/terms-and-conditions/" rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Navigation" data-event-label="Terms and Conditions" data-event-non-interaction="true">Terms & Conditions</a></li>
+     </ul>
+    <div class="u-clear" role="navigation">
+
+                    <ul class="nav-sections">
+        <li class="nav-sections-section"><a href="/latest"  data-event-category="Top" data-event-action="Channels" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
+        <li class="nav-sections-section"><a href="/hardfork"  data-event-category="Top" data-event-action="Channels" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
+        <li class="nav-sections-section"><a href="/plugged"  data-event-category="Top" data-event-action="Channels" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
+        <li class="nav-sections-section"><a href="/the-next-police"  data-event-category="Top" data-event-action="Channels" data-event-label="The Next Police" data-event-non-interaction="true">The Next Police</a></li>
+        <li class="nav-sections-section"><a href="/adobe-fundamentals"  data-event-category="Top" data-event-action="Channels" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
+        <li class="nav-sections-section"><a href="/iot-lab"  data-event-category="Top" data-event-action="Channels" data-event-label="IoT Lab" data-event-non-interaction="true">IoT Lab</a></li>
+        <li class="nav-sections-section"><a href="/investing-2-0"  data-event-category="Top" data-event-action="Channels" data-event-label="Investing 2.0" data-event-non-interaction="true">Investing 2.0</a></li>
+    </ul>
+ 
+        <div class="nav-countdown tnw-countdown" data-deadline="1557388800">
+	<div class="nav-countdown-wrapper">
+		<div class="nav-countdown-conf-ams17">
+			<img alt="TNW Conference" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/conf-ams17-logo-red.svg">
+			<div class="nav-countdown-conf-ams17-text">
+				STARTS IN
+			</div>
+                       <a href="https://thenextweb.com/conference/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=nav-link" target="_blank">
+                               <div class="nav-countdown-conf-ams17-timer">
+                                       <span class="nav-countdown-conf-ams17-item countdown-timer-unit-d">
+                                               <span class="nav-countdown-conf-ams17-timer-count countdown-timer-count">&#183;</span>
+                                       </span>
+                                      :
+                                       <span class="nav-countdown-conf-ams17-item countdown-timer-unit-h">
+                                               <span class="nav-countdown-conf-ams17-timer-count countdown-timer-count">&#183;</span>
+                                       </span>
+                                       :
+                                       <span class="nav-countdown-conf-ams17-item countdown-timer-unit-m">
+                                               <span class="nav-countdown-conf-ams17-timer-count countdown-timer-count">&#183;</span>
+                                       </span>
+                                       :
+                                       <span class="nav-countdown-conf-ams17-item countdown-timer-unit-s">
+                                               <span class="nav-countdown-conf-ams17-timer-count countdown-timer-count">&#183;</span>
+                                       </span>
+                               </div>
+                       </a>
+                       <a href="https://thenextweb.com/conference/?utm_source=thenextweb.com&amp;utm_medium=referral&amp;utm_campaign=nav-link" class="btn" target="_blank">GET TICKETS</a>
+
+		</div>
+	</div>
+</div>
+
+        <ul class="nav-icons">
+            <li class="cookieConsent">
+                <a href="#"><i class="icon icon--cookie"></i></a>
+                <div class="cookieConsent-popOut">
+                    <header>
+                        <h2>Have a cookie</h2>
+                    </header>
+                    <main>
+                        <p>
+                            TNW uses cookies to personalize content and ads to
+                            make our site easier for you to use.
+                            We do also share that information with third parties for
+                            advertising &amp; analytics.
+                        </p>
+                    </main>
+                    <footer>
+                        <a class="button button--small" onclick="cookiesAccepted();"  data-event-category="Top" data-event-action="Cookies" data-event-label="OK" data-event-non-interaction="true">Got it!</a>
+                        <span>
+                            or <a href="/privacy-policy/"  data-event-category="Top" data-event-action="Cookies" data-event-label="More information" data-event-non-interaction="true">More info</a>
+                        </span>
+                    </footer>
+                </div>
+            </li>
+            <li><a id="search--open" href="#"><i class="icon icon--search--dark"></i></a>
+                <!--
+                <li><a href="#"><i class="icon icon--user--dark"></i></a>
+                -->
+            <li>
+                <a class="nav-mob-toggle" id="nav-mob-toggle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+        <!--
+        <ul class="nav-follow">
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true" href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank"  rel="noopener"><i class="icon icon--facebook--dark"></i></a>
+            <li><a  data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true" href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" target="_blank"  rel="noopener"><i class="icon icon--twitter--dark"></i></a>
+            <li class="nav-follow-extra">
+                <ul>
+                    <li><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" target="_blank"  rel="noopener"  data-event-category="Top" data-event-action="Social" data-event-label="Google+" data-event-non-interaction="true"><i class="icon icon--google--dark"></i></a>
+                    <li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--dark"></i></a>
+                    <li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube"  rel="noopener" target="_blank"  data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--dark"></i></a>
+                    <li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--dark"></i></a>
+                    <li><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--dark"></i></a>
+                    <li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank"  rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS" data-event-non-interaction="true"><i class="icon icon--rss--dark"></i></a>
+                </ul>
+            </li>
+            <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--dark"></i></a>
+            <li class="nav-follow-more nav-follow-toggle"><a href="#"><i class="icon icon--more--dark"></i></a>
+            <li class="nav-follow-less nav-follow-toggle"><a href="#"><i class="icon icon--close"></i></a>
+        </ul>
+        -->
+
+    </div>
+
+    <div class="nav-mob">
+        <div class="nav-mob-content">
+            <ul class="nav-mob-follow">
+                <li><a data-modal="modalStayTuned" href="#"><i class="icon icon--mail--light"></i></a>
+                <li><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a></li><li><a href="https://twitter.com/thenextweb" title="Follow us on Twitter" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a></li><li><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Google+" data-event-non-interaction="true"><i class="icon icon--google--light"></i></a></li><li><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="LinkedIn" data-event-non-interaction="true"><i class="icon icon--linkedin--light"></i></a></li><li><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a></li><li><a href="https://pinterest.com/thenextweb" title="Follow us on Pinterest" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a></li><li><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a></li><li><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" target="_blank" rel="noopener" data-event-category="Top" data-event-action="Social" data-event-label="RSS Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a></li>            </ul>
+            <div class="u-row">
+                <div class="u-col-xs-6">
+                    <h5>Sections</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/latest"  data-event-category="Top" data-event-action="Sections" data-event-label="Latest" data-event-non-interaction="true">Latest</a></li>
+                        <li><a href="/section/insights"  data-event-category="Top" data-event-action="Sections" data-event-label="Insights" data-event-non-interaction="true">Insights</a></li>
+                        <li><a href="/hardfork/"  data-event-category="Top" data-event-action="Sections" data-event-label="Hard Fork" data-event-non-interaction="true">Hard Fork</a></li>
+                        <li><a href="/plugged/"  data-event-category="Top" data-event-action="Sections" data-event-label="Plugged" data-event-non-interaction="true">Plugged</a></li>
+                        <li><a href="/the-next-police/"  data-event-category="Top" data-event-action="Sections" data-event-label="The Next Police" data-event-non-interaction="true">The Next Police</a></li>
+                        <li><a href="/adobe-fundamentals/"  data-event-category="Top" data-event-action="Sections" data-event-label="Fundamentals" data-event-non-interaction="true">Fundamentals</a></li>
+                        <li><a href="/iot-lab/"  data-event-category="Top" data-event-action="Sections" data-event-label="IoT Lab" data-event-non-interaction="true">IoT Lab</a></li>
+                        <li><a href="/investing-2-0/"  data-event-category="Top" data-event-action="Sections" data-event-label="Investing 2.0" data-event-non-interaction="true">Investing 2.0</a></li>
+                    </ul>
+                </div>
+                <div class="u-col-xs-6">
+                    <h5>About TNW</h5>
+                    <ul class="nav-mob-menu">
+                    <li><a href="/about" data-event-category="Top" data-event-action="Navigation" data-event-label="About" data-event-non-interaction="true">About</a></li><li><a href="/team" data-event-category="Top" data-event-action="Navigation" data-event-label="Team" data-event-non-interaction="true">Team</a></li><li><a href="https://tnwads.typeform.com/to/ofLLXt" data-event-category="Top" data-event-action="Navigation" data-event-label="Advertise" data-event-non-interaction="true">Advertise</a></li><li><a href="/jobs" data-event-category="Top" data-event-action="Navigation" data-event-label="Jobs" data-event-non-interaction="true">Jobs</a></li><li><a href="/about#contact" data-event-category="Top" data-event-action="Navigation" data-event-label="Contact" data-event-non-interaction="true">Contact</a></li><li><a href="/terms-and-conditions/" data-event-category="Top" data-event-action="Navigation" data-event-label="Terms & Conditions" data-event-non-interaction="true">Terms & Conditions</a></li>                    </ul>
+                    <h5>TNW Sites</h5>
+                    <ul class="nav-mob-menu">
+                        <li><a href="/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="News" data-event-non-interaction="true">News</a></li><li><a href="/conference/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Conference" data-event-non-interaction="true">Conference</a></li><li><a href="/hardfork-decentralized/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Hard Fork Decentralized" data-event-non-interaction="true">Hard Fork Decentralized</a></li><li><a href="https://index.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Index" data-event-non-interaction="true">Index</a></li><li><a href="https://tq.co/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="TQ" data-event-non-interaction="true">TQ</a></li><li><a href="http://deals.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Deals" data-event-non-interaction="true">Deals</a></li><li><a href="https://answers.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Answers" data-event-non-interaction="true">Answers</a></li><li><a href="http://cc.thenextweb.com/" target="_blank" rel="noopener"  data-event-category="Top" data-event-action="Navigation" data-event-label="Cyberspace Culture" data-event-non-interaction="true">Cyberspace Culture</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a data-event-category="Top" data-event-action="Announcement bar" data-event-label="TNW Answers" href="https://thenextweb.com/tnw2019/2019/04/16/house-of-talent-tnw2019/" target="_blank"  rel="noopener">
+	<div class="nav-message nav-message-answers">
+			Looking for your dream job? Connect with the biggest brands at TNW2019 → 	</div>
+</a>
+
+</nav>
+        <main class="main">
+<script type="application/ld+json">
+{"@context":"https:\/\/schema.org","@id":"#MainEntity","@type":"ItemList","url":"https:\/\/thenextweb.com\/artificial-intelligence\/","mainEntityOfPage":{"@id":"https:\/\/thenextweb.com\/artificial-intelligence\/","@type":"CollectionPage","name":"Artificial Intelligence | The Next Web","description":"","inLanguage":"en-US","breadcrumb":{"@id":"#Breadcrumb"},"about":{"@type":"thing","name":"Artificial Intelligence","sameAs":"https:\/\/en.wikipedia.org\/wiki\/Artificial_intelligence"},"publisher":{"@id":"#Publisher","@type":"Organization","name":"The Next Web","logo":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/06\/tnw-logo-amp.png","width":"248","height":"60"},"sameAs":["https:\/\/en.wikipedia.org\/wiki\/The_Next_Web","https:\/\/www.facebook.com\/thenextweb","https:\/\/www.twitter.com\/thenextweb","https:\/\/plus.google.com\/+TheNextWeb\/","https:\/\/instagram.com\/thenextweb","https:\/\/www.youtube.com\/user\/thenextweb","https:\/\/www.pinterest.com\/thenextweb\/","https:\/\/www.linkedin.com\/company\/the-next-web","https:\/\/vine.co\/thenextweb","https:\/\/thenextweb.tumblr.com","https:\/\/soundcloud.com\/thenextweb","https:\/\/vimeo.com\/thenextweb","https:\/\/vk.com\/thenextweb","https:\/\/www.slideshare.net\/thenextweb","https:\/\/flipboard.com\/@thenextweb","https:\/\/storify.com\/thenextweb","https:\/\/www.stumbleupon.com\/channel\/thenextweb","https:\/\/www.flickr.com\/photos\/thenextweb\/","https:\/\/foursquare.com\/thenextweb"]},"copyrightHolder":{"@id":"#Publisher"}},"itemListElement":[{"@type":"ListItem","position":1,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/18\/women-in-ai-need-better-allies-heres-how-we-can-all-help\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/18\/women-in-ai-need-better-allies-heres-how-we-can-all-help\/","headline":"Women in AI need better allies. Here\u2019s how we can all help","description":"Lin Classon, Director of Public Cloud Product at managed cloud provider Ensono and former Googler, has spent her entire career ...","datePublished":"2019-04-19 10:56:47","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/allies-266x135.jpg","width":266,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-19 10:56:47"}},{"@type":"ListItem","position":2,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/syndication\/2019\/04\/17\/emotionally-intelligent-ai-will-respond-to-how-you-feel\/","mainEntityOfPage":"https:\/\/thenextweb.com\/syndication\/2019\/04\/17\/emotionally-intelligent-ai-will-respond-to-how-you-feel\/","headline":"Emotionally intelligent AI will respond to how you feel","description":"Artificial intelligence offers us an opportunity to amplify service and the integration of technology in everyday lives many ...","datePublished":"2019-04-18 09:14:36","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/emotion-AI-1200-258x135.png","width":258,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/alex-potamianos\/","name":"Alex Potamianos"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-18 09:14:36"}},{"@type":"ListItem","position":3,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/16\/mit-scientists-simulation-hypothesis-makes-compelling-case-for-the-matrix\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/16\/mit-scientists-simulation-hypothesis-makes-compelling-case-for-the-matrix\/","headline":"MIT scientist's 'Simulation Hypothesis' makes compelling case for The Matrix","description":"Is this the real life? Is this just fantasy? Are angels really AIs sent to monitor us on behalf of the programmers responsible ...","datePublished":"2019-04-16 18:45:19","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2012\/05\/246005_1980289318379_1980263277728_41611_794_b-520x294.jpg","width":239,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-16 18:45:19"}},{"@type":"ListItem","position":4,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/15\/autumn-is-coming-expert-says-hype-cycle-will-give-way-to-rich-harvest-of-useful-ai\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/15\/autumn-is-coming-expert-says-hype-cycle-will-give-way-to-rich-harvest-of-useful-ai\/","headline":"Autumn is coming: Expert says hype cycle will give way to 'rich harvest' of useful AI","description":"Winter isn't coming. At least not for the world of artificial intelligence. Jeff Bigham, program director of the Human-computer ...","datePublished":"2019-04-15 22:54:28","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/06\/vintage-robot-270x135.jpg","width":270,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-15 22:54:28"}},{"@type":"ListItem","position":5,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/15\/dota-2-players-can-sign-up-to-compete-against-openais-champion-crushing-bots-this-week\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/15\/dota-2-players-can-sign-up-to-compete-against-openais-champion-crushing-bots-this-week\/","headline":"Dota 2 players can sign up to compete against OpenAI\u2019s champion-crushing bots this week","description":"OpenAI has been training its bots to learn to play Dota 2 for years. It's gotten awfully good at it, and you can now test your skills against its AI system.","datePublished":"2019-04-15 13:49:17","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/OpenAI-Dota-2-257x135.jpg","width":257,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/abhimanyughoshal\/","name":"Abhimanyu Ghoshal"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-15 13:49:17"}},{"@type":"ListItem","position":6,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/syndication\/2019\/04\/13\/smart-cities-are-an-ai-powered-dystopia-thats-already-happening\/","mainEntityOfPage":"https:\/\/thenextweb.com\/syndication\/2019\/04\/13\/smart-cities-are-an-ai-powered-dystopia-thats-already-happening\/","headline":"Smart cities are an AI-powered dystopia that's already happening","description":"Separating the futuristic from the dystopian in the minds of the general public can be a challenge, particularly when trying ...","datePublished":"2019-04-13 09:32:04","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/ai_header_C_1200-258x135.png","width":258,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/binary-district-journal\/","name":"Binary District Journal"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-13 09:32:04"}},{"@type":"ListItem","position":7,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/13\/ai-rejects-conservative-human-views-on-furniture-designs-wacky-chair\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/13\/ai-rejects-conservative-human-views-on-furniture-designs-wacky-chair\/","headline":"AI rejects conservative human views on furniture, designs wacky chair","description":"If you're lucky enough to be in Italy for Milan Design Week this year, do yourself a favor and check out the world's first ...","datePublished":"2019-04-15 13:39:40","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/autodesk-203x135.jpg","width":203,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-15 13:39:40"}},{"@type":"ListItem","position":8,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/11\/heres-why-israels-first-moon-landing-ended-in-an-awesome-crash\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/11\/heres-why-israels-first-moon-landing-ended-in-an-awesome-crash\/","headline":"Here's why Israel's first moon landing ended in an awesome crash","description":"Israel's first attempt at landing an unmanned spacecraft on the Moon today ended in a hard landing after an engine failure ...","datePublished":"2019-04-11 22:49:25","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/moon-258x135.jpg","width":258,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-11 22:49:25"}},{"@type":"ListItem","position":9,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/apps\/2019\/04\/11\/hallelujah-google-assistant-finally-has-access-to-your-g-suite-calendar\/","mainEntityOfPage":"https:\/\/thenextweb.com\/apps\/2019\/04\/11\/hallelujah-google-assistant-finally-has-access-to-your-g-suite-calendar\/","headline":"Hallelujah! Google Assistant finally has access to your G Suite calendar","description":"Google yesterday announced Calendar support via Google Assistant for G Suite customers at its Google Next event. This means ...","datePublished":"2019-04-11 20:31:37","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2017\/07\/google-algorithm-fade-ss-1920-800x450-240x135.jpg","width":240,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-11 20:31:37"}},{"@type":"ListItem","position":10,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/10\/google-takes-a-break-from-being-evil-to-announce-ai-platform\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/10\/google-takes-a-break-from-being-evil-to-announce-ai-platform\/","headline":"Google takes a break from being evil to announce AI Platform","description":"Weather alert: be on the lookout for flying pigs. Google's new AI Platform looks to make good on the company's promise to ...","datePublished":"2019-04-11 14:44:57","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2018\/05\/sundar_robots-258x135.jpg","width":258,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-11 14:44:57"}},{"@type":"ListItem","position":11,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/09\/physicists-developed-an-experimental-quantum-device-to-predict-the-future\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/09\/physicists-developed-an-experimental-quantum-device-to-predict-the-future\/","headline":"Physicists developed an experimental quantum device to predict the future","description":"A team of scientists from Griffith University in Australia and Nanyang Technological University (NTU) Singapore have developed a quantum-powered machine that accurately simulates future outcomes. This research has huge implications at the intersection of quantum mechanics and machine ...","datePublished":"2019-04-09 19:36:52","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2019\/04\/quantumdevice-268x135.jpg","width":268,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-09 19:36:52"}},{"@type":"ListItem","position":12,"item":{"type":"NewsArticle","url":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/08\/new-york-vows-to-keep-trying-after-orwellian-facial-recognition-program-fails\/","mainEntityOfPage":"https:\/\/thenextweb.com\/artificial-intelligence\/2019\/04\/08\/new-york-vows-to-keep-trying-after-orwellian-facial-recognition-program-fails\/","headline":"New York vows to keep trying after Orwellian facial recognition program fails","description":"New York Governor Andrew Cuomo's driver recognition pilot program has yielded perfect results: it works zero percent of the time. Congratulations would be in order, but despite this fantastic failure the state intends to continue building it's privacy-smashing facial recognition program.\r\n\r\nThe ...","datePublished":"2019-04-08 22:35:41","inLanguage":"en-US","image":{"@type":"ImageObject","url":"https:\/\/cdn0.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2018\/06\/car_surv-258x135.jpg","width":258,"height":135},"author":{"@type":"Person","url":"https:\/\/thenextweb.com\/author\/tristangreen\/","name":"Tristan Greene"},"publisher":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"dateModified":"2019-04-08 22:35:41"}}]}</script>
+
+<section class="cover cover--grid4">
+
+    
+        <article class="cover-story" data-post-id="1201149">
+            <div class="cover-image lazy"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies-796x404.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies-796x404.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies-280x142.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies-531x270.jpg 531w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies-266x135.jpg 266w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/allies.jpg 986w" sizes="(max-width: 796px) 100vw, 796px" width="796" height="404"></div>
+            <a class="cover-trigger" href="https://thenextweb.com/artificial-intelligence/2019/04/18/women-in-ai-need-better-allies-heres-how-we-can-all-help/"  data-event-category="Homepage" data-event-action="Top story" data-event-label="Post" data-event-non-interaction="true"></a>
+            
+                <div class="cover-gradient"></div>
+
+                                    <h1 class="cover-title">Artificial Intelligence</h1>
+                            <header class="cover-header">
+                <h5 class="cover-section"><a href="/section/tech">Tech</a></h5>
+                <h2 class="cover-title"><a href="https://thenextweb.com/artificial-intelligence/2019/04/18/women-in-ai-need-better-allies-heres-how-we-can-all-help/">Women in AI need better allies. Here’s how we can all help</a></h2>
+                <ul class="cover-byline">
+                    <li>by <a href="https://thenextweb.com/author/tristangreen/">Tristan Greene</a></li>
+                    <li><i class="icon icon--clock--light"></i><time datetime="2019-04-18T23:57:39+00:00" class="timeago"></time></li>
+                    <li><i class="icon icon--share--light"></i>44</li>
+                </ul>
+            </header>
+        </article>
+
+    
+        <article class="cover-story" data-post-id="1200057">
+            <div class="cover-image lazy"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200-796x417.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200-796x417.png 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200-280x147.png 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200-516x270.png 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200-258x135.png 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/emotion-AI-1200.png 1200w" sizes="(max-width: 796px) 100vw, 796px" width="796" height="417"></div>
+            <a class="cover-trigger" href="https://thenextweb.com/syndication/2019/04/17/emotionally-intelligent-ai-will-respond-to-how-you-feel/"  data-event-category="Homepage" data-event-action="Top story" data-event-label="Post" data-event-non-interaction="true"></a>
+                        <header class="cover-header">
+                <h5 class="cover-section"><a href="/section/tech">Tech</a></h5>
+                <h2 class="cover-title"><a href="https://thenextweb.com/syndication/2019/04/17/emotionally-intelligent-ai-will-respond-to-how-you-feel/">Emotionally intelligent AI will respond to how you feel</a></h2>
+                <ul class="cover-byline">
+                    <li>by <a href="https://thenextweb.com/author/alex-potamianos/">Alex Potamianos</a></li>
+                    <li><i class="icon icon--clock--light"></i><time datetime="2019-04-17T14:48:06+00:00" class="timeago"></time></li>
+                    <li><i class="icon icon--share--light"></i>17</li>
+                </ul>
+            </header>
+        </article>
+
+    
+        <article class="cover-story" data-post-id="1200518">
+            <div class="cover-image lazy"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/05/246005_1980289318379_1980263277728_41611_794_b.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/05/246005_1980289318379_1980263277728_41611_794_b.jpg 1216w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/05/246005_1980289318379_1980263277728_41611_794_b-220x124.jpg 220w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/05/246005_1980289318379_1980263277728_41611_794_b-520x294.jpg 520w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2012/05/246005_1980289318379_1980263277728_41611_794_b-82x45.jpg 82w" sizes="(max-width: 1216px) 100vw, 1216px" width="1216" height="688"></div>
+            <a class="cover-trigger" href="https://thenextweb.com/artificial-intelligence/2019/04/16/mit-scientists-simulation-hypothesis-makes-compelling-case-for-the-matrix/"  data-event-category="Homepage" data-event-action="Top story" data-event-label="Post" data-event-non-interaction="true"></a>
+                        <header class="cover-header">
+                <h5 class="cover-section"><a href="/section/tech">Tech</a></h5>
+                <h2 class="cover-title"><a href="https://thenextweb.com/artificial-intelligence/2019/04/16/mit-scientists-simulation-hypothesis-makes-compelling-case-for-the-matrix/">MIT scientist’s ‘Simulation Hypothesis’ makes compelling case for The Matrix</a></h2>
+                <ul class="cover-byline">
+                    <li>by <a href="https://thenextweb.com/author/tristangreen/">Tristan Greene</a></li>
+                    <li><i class="icon icon--clock--light"></i><time datetime="2019-04-16T18:34:31+00:00" class="timeago"></time></li>
+                    <li><i class="icon icon--share--light"></i>110</li>
+                </ul>
+            </header>
+        </article>
+
+    
+        <article class="cover-story" data-post-id="1200307">
+            <div class="cover-image lazy"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-796x398.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-796x398.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-280x140.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-540x270.jpg 540w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-270x135.jpg 270w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-1592x796.jpg 1592w" sizes="(max-width: 796px) 100vw, 796px" width="796" height="398"></div>
+            <a class="cover-trigger" href="https://thenextweb.com/artificial-intelligence/2019/04/15/autumn-is-coming-expert-says-hype-cycle-will-give-way-to-rich-harvest-of-useful-ai/"  data-event-category="Homepage" data-event-action="Top story" data-event-label="Post" data-event-non-interaction="true"></a>
+                        <header class="cover-header">
+                <h5 class="cover-section"><a href="/section/tech">Tech</a></h5>
+                <h2 class="cover-title"><a href="https://thenextweb.com/artificial-intelligence/2019/04/15/autumn-is-coming-expert-says-hype-cycle-will-give-way-to-rich-harvest-of-useful-ai/">Autumn is coming: Expert says hype cycle will give way to ‘rich harvest’ of useful AI</a></h2>
+                <ul class="cover-byline">
+                    <li>by <a href="https://thenextweb.com/author/tristangreen/">Tristan Greene</a></li>
+                    <li><i class="icon icon--clock--light"></i><time datetime="2019-04-15T22:54:23+00:00" class="timeago"></time></li>
+                    <li><i class="icon icon--share--light"></i>100</li>
+                </ul>
+            </header>
+        </article>
+
+    
+</section>
+
+    <div class="wrapper">
+        <section class="channel">
+
+            
+            
+    <div id="TNW_DSKT_SCTN_LB_ATF_1201149" class="tnw-ad TNW_DSKT_SCTN_LB_ATF"></div>
+
+    
+
+
+
+                <h2>All stories in Artificial Intelligence</h2>
+
+                
+                    <ul class="u-row">
+                
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-513x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-513x270.jpg 513w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-280x147.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-257x135.jpg 257w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-796x419.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/OpenAI-Dota-2-1592x838.jpg 1592w" sizes="(max-width: 513px) 100vw, 513px" width="513" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/15/dota-2-players-can-sign-up-to-compete-against-openais-champion-crushing-bots-this-week/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/15/dota-2-players-can-sign-up-to-compete-against-openais-champion-crushing-bots-this-week/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Dota 2 players can sign up to compete against OpenAI’s champion-crushing bots this week                </a>
+            </h4>
+
+            <p class="story-chunk">
+                OpenAI has been training its bots to learn to play Dota 2 for years. It's gotten awfully good at it, and you can now test ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/abhimanyughoshal/">
+                        Abhimanyu Ghoshal                </a></li>
+                <li><time datetime="2019-04-15T07:48:45+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200-516x270.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200-516x270.png 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200-280x147.png 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200-258x135.png 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200-796x417.png 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/ai_header_C_1200.png 1200w" sizes="(max-width: 516px) 100vw, 516px" width="516" height="270"            href="https://thenextweb.com/syndication/2019/04/13/smart-cities-are-an-ai-powered-dystopia-thats-already-happening/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/syndication/2019/04/13/smart-cities-are-an-ai-powered-dystopia-thats-already-happening/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Smart cities are an AI-powered dystopia that's already happening                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Separating the futuristic from the dystopian in the minds of the general public can be a challenge, particularly when trying ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/binary-district-journal/">
+                        Binary District Journal                </a></li>
+                <li><time datetime="2019-04-13T09:31:55+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-405x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-405x270.jpg 405w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-280x187.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-203x135.jpg 203w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-796x531.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/autodesk-1592x1061.jpg 1592w" sizes="(max-width: 405px) 100vw, 405px" width="405" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/13/ai-rejects-conservative-human-views-on-furniture-designs-wacky-chair/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/13/ai-rejects-conservative-human-views-on-furniture-designs-wacky-chair/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    AI rejects conservative human views on furniture, designs wacky chair                </a>
+            </h4>
+
+            <p class="story-chunk">
+                If you're lucky enough to be in Italy for Milan Design Week this year, do yourself a favor and check out the world's first ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-13T00:16:29+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon-516x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon-516x270.jpg 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon-280x147.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon-258x135.jpg 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon-796x417.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/moon.jpg 1200w" sizes="(max-width: 516px) 100vw, 516px" width="516" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/11/heres-why-israels-first-moon-landing-ended-in-an-awesome-crash/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/11/heres-why-israels-first-moon-landing-ended-in-an-awesome-crash/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Here's why Israel's first moon landing ended in an awesome crash                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Israel's first attempt at landing an unmanned spacecraft on the Moon today ended in a hard landing after an engine failure ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-11T22:34:05+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+            </ul>
+        
+                    <ul class="u-row">
+                
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450-480x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450-480x270.jpg 480w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450-280x158.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450-240x135.jpg 240w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450-796x448.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/google-algorithm-fade-ss-1920-800x450.jpg 800w" sizes="(max-width: 480px) 100vw, 480px" width="480" height="270"            href="https://thenextweb.com/apps/2019/04/11/hallelujah-google-assistant-finally-has-access-to-your-g-suite-calendar/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/apps/2019/04/11/hallelujah-google-assistant-finally-has-access-to-your-g-suite-calendar/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Hallelujah! Google Assistant finally has access to your G Suite calendar                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Google yesterday announced Calendar support via Google Assistant for G Suite customers at its Google Next event. This means ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-11T20:25:51+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots-516x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots-516x270.jpg 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots-280x147.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots-258x135.jpg 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots-796x417.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/sundar_robots.jpg 1200w" sizes="(max-width: 516px) 100vw, 516px" width="516" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/10/google-takes-a-break-from-being-evil-to-announce-ai-platform/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/10/google-takes-a-break-from-being-evil-to-announce-ai-platform/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Google takes a break from being evil to announce AI Platform                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Weather alert: be on the lookout for flying pigs. Google's new AI Platform looks to make good on the company's promise to ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-10T23:47:18+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice-536x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice-536x270.jpg 536w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice-280x141.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice-268x135.jpg 268w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice-796x401.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/quantumdevice.jpg 1213w" sizes="(max-width: 536px) 100vw, 536px" width="536" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/09/physicists-developed-an-experimental-quantum-device-to-predict-the-future/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/09/physicists-developed-an-experimental-quantum-device-to-predict-the-future/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Physicists developed an experimental quantum device to predict the future                </a>
+            </h4>
+
+            <p class="story-chunk">
+                A team of scientists from Griffith University in Australia and Nanyang Technological University (NTU) Singapore have developed a quantum-powered machine that accurately simulates future outcomes. This research has huge implications at the intersection of quantum mechanics and machine ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-09T19:36:48+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv-516x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv-516x270.jpg 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv-280x147.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv-258x135.jpg 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv-796x417.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/car_surv.jpg 1200w" sizes="(max-width: 516px) 100vw, 516px" width="516" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/08/new-york-vows-to-keep-trying-after-orwellian-facial-recognition-program-fails/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/08/new-york-vows-to-keep-trying-after-orwellian-facial-recognition-program-fails/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    New York vows to keep trying after Orwellian facial recognition program fails                </a>
+            </h4>
+
+            <p class="story-chunk">
+                New York Governor Andrew Cuomo's driver recognition pilot program has yielded perfect results: it works zero percent of the time. Congratulations would be in order, but despite this fantastic failure the state intends to continue building it's privacy-smashing facial recognition program.
+
+The ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-08T22:35:37+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+            </ul>
+        
+                    <ul class="u-row">
+                
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Tim-Apple-540x270.png" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Tim-Apple-540x270.png 540w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Tim-Apple-280x140.png 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Tim-Apple-270x135.png 270w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Tim-Apple.png 720w" sizes="(max-width: 540px) 100vw, 540px" width="540" height="270"            href="https://thenextweb.com/apple/2019/04/08/ian-goodfellows-hiring-hints-at-what-apples-next-one-more-thing-could-be/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/apple/2019/04/08/ian-goodfellows-hiring-hints-at-what-apples-next-one-more-thing-could-be/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Ian Goodfellow's hiring hints at what Apple's next 'one more thing' could be                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Apple recently scored the hottest free agent in AI when it managed to lure Ian “The GANfather” Goodfellow away from his ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-08T20:35:21+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer-516x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer-516x270.jpg 516w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer-280x147.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer-258x135.jpg 258w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer-796x417.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/braincomputer.jpg 1200w" sizes="(max-width: 516px) 100vw, 516px" width="516" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/05/researchers-developed-algorithms-that-mimic-the-human-brain-and-the-results-dont-suck/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/05/researchers-developed-algorithms-that-mimic-the-human-brain-and-the-results-dont-suck/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    Researchers developed algorithms that mimic the human brain (and the results don't suck)                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Researchers are kicking it old school with new biologically-feasible algorithms that appear to be able to hold their own ...            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/tristangreen/">
+                        Tristan Greene                </a></li>
+                <li><time datetime="2019-04-05T00:33:55+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="story story--large story--video u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://i.ytimg.com/vi/25ltIoHtiO4/hqdefault.jpg" data-srcset="" sizes="" width="360" height="270"            href="https://thenextweb.com/apps/2019/04/04/watch-adobes-new-after-effects-feature-remove-distracting-objects-from-your-videos-like-magic/">
+            <h5>Video</h5>
+        </a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/apps/2019/04/04/watch-adobes-new-after-effects-feature-remove-distracting-objects-from-your-videos-like-magic/">
+                    Watch Adobe's new After Effects feature remove distracting objects from your videos like magic                </a>
+            </h4>
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/abhimanyughoshal/">
+                    Abhimanyu Ghoshal                </a></li>
+                <li><time datetime="2019-04-04T07:54:02+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class=" u-col-xs-6 u-col-m-6 u-col-l-3">
+    <div class="story story--large">
+        <a class="lazy story-image"  data-src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count-406x270.jpg" data-srcset="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count-406x270.jpg 406w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count-280x186.jpg 280w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count-203x135.jpg 203w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count-796x530.jpg 796w, https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/count.jpg 1200w" sizes="(max-width: 406px) 100vw, 406px" width="406" height="270"            href="https://thenextweb.com/artificial-intelligence/2019/04/01/mit-created-a-new-algorithm-thats-really-really-good-at-counting/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true"></a>
+
+        <div class="story-text">
+            <h4 class="story-title">
+                <a href="https://thenextweb.com/artificial-intelligence/2019/04/01/mit-created-a-new-algorithm-thats-really-really-good-at-counting/"  data-event-category="Category" data-event-action="Loop Posts" data-event-label="Post - Article" data-event-non-interaction="true">
+                    MIT created a new algorithm that's really, really good at counting                </a>
+            </h4>
+
+            <p class="story-chunk">
+                Not an April Fool's            </p>
+
+            <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/matthewhughes/">
+                        Matthew Hughes                </a></li>
+                <li><time datetime="2019-04-01T15:44:22+00:00" class="timeago"></time></li>
+            </ul>
+        </div>
+    </div>
+</li>
+            </ul>
+        
+    <div id="TNW_DSKT_SCTN_LB_BTF_1201149" class="tnw-ad TNW_DSKT_SCTN_LB_BTF"></div>
+
+    
+
+
+
+    <div class="page-beacon" data-page-idx="1"></div> 
+        </section>
+
+         <a href="#" class="pager pager-next">Load more articles</a>     </div>
+
+    <div class="load-modules" data-modules="grid-pager"></div>
+
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer-links">
+                <div class="wrapper">
+                    <ul class="footer-links-social">
+                        <li><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"  data-event-category="Footer" data-event-action="Social" data-event-label="Facebook" data-event-non-interaction="true"><i class="icon icon--facebook--light"></i></a>
+                        <li><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Twitter" data-event-non-interaction="true"><i class="icon icon--twitter--light"></i></a>
+                        <li><a href="https://www.youtube.com/user/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="YouTube" data-event-non-interaction="true"><i class="icon icon--youtube--light"></i></a>
+                        <li><a href="https://www.instagram.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Instagram" data-event-non-interaction="true"><i class="icon icon--instagram--light"></i></a>
+                        <li><a href="https://www.pinterest.com/thenextweb" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Pinterest" data-event-non-interaction="true"><i class="icon icon--pinterest--light"></i></a>
+                        <li><a href="https://thenextweb.com/feed/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Social" data-event-label="Feed" data-event-non-interaction="true"><i class="icon icon--rss--light"></i></a>
+                        <li><a data-modal="modalStayTuned" href="#"  data-event-category="Footer" data-event-action="Social" data-event-label="Newsletter" data-event-non-interaction="true"><i class="icon icon--mail--light"></i></a>
+                    </ul>
+                    <ul class="footer-links-menu">
+                        <li><a href="/conference/"  data-event-category="Footer" data-event-action="Conference" data-event-label="" data-event-non-interaction="true">Events</a></li>
+                        <li><a href="/about"  data-event-category="Footer" data-event-action="About" data-event-label="" data-event-non-interaction="true">About</a></li>
+                        <li class="u-showFrom-m"><a href="/team"  data-event-category="Footer" data-event-action="Team" data-event-label="" data-event-non-interaction="true">Team</a></li>
+                        <li><a href="/advertise" target="_blank"  data-event-category="Footer" data-event-action="Advertise" data-event-label="" data-event-non-interaction="true">Advertise</a></li>
+                        <li><a href="https://thenextweb.homerun.hr/" target="_blank" rel="noopener"   data-event-category="Footer" data-event-action="Jobs" data-event-label="" data-event-non-interaction="true">Jobs</a></li>
+                        <li><a href="/about#contact"  data-event-category="Footer" data-event-action="Contact" data-event-label="" data-event-non-interaction="true">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <div class="wrapper">
+                        <span>
+                            <a href="/"><img alt="The Next Web" class="footer-legal-logoTNW" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></a>
+                            &copy; 2006&ndash;2019 The Next Web B.V.
+                        </span>
+                        <span>Made with <b>&hearts;</b> in Amsterdam.</span>
+                        <span>
+                            Powered by
+                            <a href="https://www.stackpath.com?utm_campaign=Partner%20Display&utm_source=Partner%20Display&utm_medium=thenextweb" target="_blank" rel="noopener"><img alt="StackPath" class="footer-legal-logoStackPath" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg"></a>
+                        </span>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <div class="js-modal modal modalStayTuned" id="modalStayTuned">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Stay tuned</h3>
+            <a href="#close" title="Esc"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Treat yourself
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Sit back and let the hottest tech news come to you by the magic of electronic mail.
+            </p>
+            <form action="https://thenextweb.com/wp-content/themes/cyberdelia/ajax/form/newsletter.php" class="u-m-1" method="post" data-xhr data-xhr-fail="newsletterFail" data-xhr-success="newsletterSuccess" onsubmit="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Sign up','eventLabel':'Modal','eventNonInteraction':1} );">
+                <div class="modalStayTuned-success">
+                    <b>T</b><b>h</b><b>a</b><b>n</b><b>k</b><b>&nbsp;</b><b>y</b><b>o</b><b>u</b><b>!</b>
+                </div>
+                <div class="formField">
+                    <div class="formField-withButton">
+                        <div class="formField-withIcon u-float-left u-w-xs-75">
+                            <input class="formInput formInput--text" name="email" placeholder="Email" type="email" required="">
+                                                        <input class="" name="source" hidden id="source-newsletter" style="display: none" value="thenextweb.com/artificial-intelligence/">
+                            <i class="icon icon--mail"></i>
+                        </div>
+                        <button class="button u-float-left u-w-xs-25" type="submit">Sign up</button>
+                    </div>
+                </div>
+            </form>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                Prefer to get the news as it happens? Follow us on social media.
+            </p>
+            <ul class="modalStayTuned-channels u-row">
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--twitter">
+                    <div class="modalStayTuned-channels-icon"><a href="https://twitter.com/thenextweb" target="_blank" rel="noopener"><img alt="Twitter" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-twitter.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1.76M</b> followers
+                        </p>
+                        <a class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/thenextweb"></a>
+                    </div>
+                </li>
+                <li class="u-col-xs-6 u-m-0">
+                    <div class="modalStayTuned-channels-channel modalStayTuned-channels-channel--facebook">
+                        <div class="modalStayTuned-channels-icon"><a href="https://www.facebook.com/thenextweb" target="_blank" rel="noopener"><img alt="Facebook" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icon-facebook.svg"></a></div>
+                        <p class="modalStayTuned-channels-followers">
+                            <b>1M</b> likes
+                        </p>
+                        <div class="fb-like" data-href="https://www.facebook.com/thenextweb" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="js-modal modal modalStayTuned" id="modalSurvey">
+    <div class="modal-window modal-window--noFooter">
+        <header class="modal-header">
+            <h3>Help us out</h3>
+            <a href="#close" title="Esc" rel="modal:close"><i class="ss-pika ss-delete" onclick="dataLayer.push( {'event':'email','eventCategory':'Email','eventAction':'Close','eventLabel':'Modal','eventNonInteraction':1} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#99A1AA" d="M31 19.2l-1.5-1.4-5.3 5.3-5.2-5.3-1.5 1.4 5.3 5.3-5.3 5.3 1.5 1.4 5.2-5.3 5.3 5.3 1.5-1.4-5.3-5.3"/></svg></i></a>
+        </header>
+        <div class="modal-body">
+            <h2 class="modalStayTuned-title u-m-0_5 u-text-center">
+                Who are you?
+            </h2>
+            <p class="lead u-m-1_5 u-text-center">
+                Got two minutes to spare? We'd love to know a bit more about our readers.<br /><br />
+                <a class="button u-w-xs-25" href="#">Start!</a>
+            </p>
+            <p class="u-color-light u-fontSize-xs u-m-1 u-text-center">
+                All data collected in the survey is anonymous.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="search" id="search">
+    <header class="search-header">
+        <a class="search-header-logo" href="/">
+            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw-red.svg">
+        </a>
+        <a id="search--close" class="search--close" href="#"><i class="icon icon--close"></i></a>
+    </header>
+    <form action="/" class="search-form" method="get">
+        <input autocomplete="off" id="search-input" name="q" value="" placeholder="Search" type="text" onfocus="this.value = this.value;">
+        <a id="search-clear" class="search-clear" href="#"><i class="icon icon--close icon--close-white icon--close-small"></i></a>
+    </form>
+    <div class="search-results" id="searchResults"></div>
+
+    <div class="search-nav-hints">
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">↑</span> <span class="search-nav-hint-key">↓</span> Navigate up/down
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Enter</span> Go to article
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">/</span> Search new term
+        </div>
+        <div class="search-nav-hint">
+            <span class="search-nav-hint-key">Esc</span> Close search
+        </div>
+    </div>
+
+</div>
+
+    <!-- Pubmatic native templates: Content lift -->
+    <script id="tmpl_TNW_DSKT_ARTL_NLIFT" type="text/x-handlebars-template">
+        <section class="recommended u-m-2" id="recommended">
+            <h2 class="u-m-1">Recommended</h2>
+            <ul class="u-row">
+                <li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+                    <div class="story story--small" data-event-category="Article" data-event-action="Recommended" data-event-label="Post" data-event-non-interaction="true">
+                    <a class="story-image gtm-recommended" sizes="(max-width: 96px) 100vw, 96px" width="96" height="96" data-event-category="Article" data-event-action="Recommended" href="{{ linkUrl }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image: url(&quot;{{ imgUrl }}&quot;);" onclick="app.pubmatic.triggerTracking(['{{ linkTracker }}']); return true;"></a>
+        			<h4 class="story-title">
+                        <a data-event-category="Article" data-event-action="Recommended" class="gtm-recommended" onclick="app.pubmatic.triggerTracking(['{{ linkTracker }}']); return true;" href="{{ linkUrl }}">{{ title }}</a>
+        	        </h4>
+        	        <ul class="story-byline">
+                        <li>
+                            <span>{{ author }}</span>
+                        </li>
+		            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </script>
+
+    <!-- Pubmatic native template: Who's hiring -->
+    <script id="tmpl_TNW_DSKT_ARTL_WIH" type="text/x-handlebars-template">
+		<li class="u-col-xs-12 u-col-m-6 u-col-l-12">
+    		<div class="story story--x-small">
+    			<a target="_blank" class="story-image" data-event-category="Article" data-event-action="Whos Hiring" data-event-label="{{ title }}" data-event-non-interaction="true" sizes="" width="80" height="80" href="{{ linkUrl }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image: url(&quot;{{ imgUrl }}&quot;);" onclick="app.pubmatic.triggerTracking(['{{ linkTracker }}']); return true;"></a>
+    			<h4 class="story-title">
+    				<a href="{{ linkUrl }}" target="_blank" data-event-category="Article" data-event-action="Whos Hiring" data-event-label="{{ title }}" data-event-non-interaction="true" onclick="app.pubmatic.triggerTracking(['{{ linkTracker }}']); return true;"> {{ titleText }} </a>
+    			</h4>
+    			<ul class="story-byline story-byline--noPadding">
+    				<li>
+    					{{ title }}
+    				</li>
+    			</ul>
+    		</div>
+    	</li>
+    </script>
+
+    <script type="text/javascript" src="/wp-content/advertisement.js" async></script>
+
+    <script type="text/javascript">
+        var adBlocker = true;
+        var APP_ENV = {"theme":"cyberdelia","permalink":"https:\/\/thenextweb.com\/artificial-intelligence","template":"category","paths":{"site":"https:\/\/thenextweb.com\/","base":"https:\/\/thenextweb.com\/wp-content\/themes\/cyberdelia\/","assets":"https:\/\/cdn0.tnwcdn.com\/wp-content\/themes\/cyberdelia\/assets\/"},"pageIdx":1,"currentPost":null,"activePostIdx":null,"postRack":[],"layout":{"siteskin":null},"category":"artificial-intelligence","categoryId":41159,"section":"tech","sectionId":35266,"adTargeting":{"sponsorName":null,"isSponsoredCategory":"No"},"taxo":"category","slug":"artificial-intelligence"}    </script>
+
+    <script type="text/javascript">
+
+        function getTheCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        if (getTheCookie("tuid") !== "") {
+            dataLayer.push({
+                'tuid': getTheCookie("tuid")
+            });
+        }
+
+    </script>
+	
+    <script src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/js/app.min.js?v=1554906474" type="text/javascript" async></script>
+
+  		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thenextweb.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var wlSettings = {"ajaxUrl":"https:\/\/thenextweb.com\/wp-admin\/admin-ajax.php","apiUrl":"https:\/\/thenextweb.com\/wl-api\/","jsonld_enabled":""};
+var wordlift = {"version":"3.19.5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thenextweb.com/wp-content/plugins/wordlift/js/dist/bundle.js?ver=3.19.5'></script>
+        <iframe width="0" height="0" frameborder="0" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156315"></iframe>
+        <script>
+                (new Image()).src = "//sync.search.spotxchange.com/partner?source=204258";
+        </script>
+            </body>
+</html>
