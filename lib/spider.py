@@ -37,14 +37,23 @@ class Tnw:
     
     def retrieve_webpage(self):
         try:
-            html = urlopen(self._url)
+            browser = webdriver.Chrome()
+            proxy = webdriver.Proxy()
+            proxy.http_proxy = '127.0.0.1:1080'
+            proxy.add_to_capabilities(webdriver.DesiredCapabilities.CHROME)
+            browser.start_session(webdriver.DesiredCapabilities.CHROME)
+            browser.get(self._url)
+            with open(raw_html_tnw, 'w', encoding='UTF-8') as fobj:
+                fobj.write(browser.page_source)
+            #html = urlopen(browser.page_source)
+            print ("Thenextweb Retrieved successfully")
         except Exception as e:
             print (e)
             self._log.report(str(e))
-        else:
-            self._data = html.read()
-            if len(self._data) > 0:
-                print ("Thenextweb Retrieved successfully")
+        # else:
+        #     self._data = html.read()
+        #     if len(self._data) > 0:
+        #         print ("Retrieved successfully")
             
     def read_webpage_from_html(self, filepath=raw_html_tnw):
         self._data = helper.read_webpage_from_html(filepath)
@@ -100,6 +109,8 @@ class Tnw:
                     break
                 link  = tag.a['href']
                 title = tag.a.string.strip()
+                # print("title = ", title)
+                # print("link = ", link)
                 news_links += "<li ><a href='{}' target='_blank'>{}</a></li>\n".format(link, title)
                 count+=1
         htmltext = htmltext.format(NEWS_LINKS=news_links)
